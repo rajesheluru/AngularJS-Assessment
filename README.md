@@ -1,7 +1,7 @@
 # AngularJS-Assessment
 
 
-Getting Started; 
+Getting Started;  
 1.clone the repo.  
 2.Cd to local copy.  
 3.run npm install.  
