@@ -9,6 +9,8 @@ Filter: <input type="text" ng-model="customerFilter.name" />
         <th ng-click="doSort('joined')">Joined</th>
         <th>&nbsp;</th>
     </tr>
+
+<!-- Filtering list based on user input  -->
     <tr ng-repeat="cust in customers | filter:customerFilter | orderBy:sortBy:reverse">
         <td>{{ cust.name }}</td>
         <td>{{ cust.city }}</td>

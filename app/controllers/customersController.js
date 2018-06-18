@@ -10,6 +10,7 @@
                 .then(function(response) {
                     $scope.customers = response.data;
                 }, function(data, status, headers, config) {
+                    //Error handling 
                     $log.log(data.error + ' ' + status);
                 });
         }
